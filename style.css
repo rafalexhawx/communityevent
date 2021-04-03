@@ -1,0 +1,282 @@
+table, tr, td {
+    border:none;
+}
+
+table, tr {
+    width: 100%;
+}
+
+tr {
+    background-color:lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color:lightblue;
+}
+
+h1#logintitle {
+    background-color:lightgreen;
+    color:darkblue;
+    text-align: center;
+    width:100%;
+}
+
+form#loginform {
+    margin-left:35%;
+}
+
+#success {
+    color:green;
+}
+
+#error {
+    color:red;
+}
+
+h1 {
+    color:darkblue;
+    font-family: Arial;
+    margin-top:0;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: Georgia;
+}
+
+p3 {
+    color: rgb(153, 86, 4);
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 20pt;
+}
+
+
+img#logo {
+    position: absolute;
+    top:0;
+    right:9;
+}
+
+h1.headertitle {
+    
+    text-align:center;
+}
+
+header {
+    background-color: lightskyblue;
+    border: 2px lightsalmon solid;
+    width:100%;
+    position:relative;
+}
+
+a#about {
+    text-align:left;
+    float:left;
+}
+
+a#legal {
+    position: absolute;
+    right:10;
+}
+
+footer {
+    background-color:lightblue;
+    border: 2px lightgreen solid;
+    width:100%;
+}
+
+p2 {
+    font-family: Georgia;
+    font-size: 20pt;
+}
+
+
+.searchresult {
+    width:20%;
+    height: 40%;
+    font-size:50%;
+    display:block;
+    float:left;
+}
+
+.searchresult:hover {
+    opacity: 75%;
+}
+
+
+#ongoing {
+    background-color:rgb(245, 191, 92);
+}
+
+#upcoming {
+    background-color: lightgreen;
+}
+
+#done {
+    background-color:rgb(243, 92, 92);
+}
+
+
+
+
+
+
+#add_event_form {
+    border: 3px darkseagreen solid;
+    background-color: lightsteelblue;
+    width:50%;
+    margin: 0 auto;
+}
+
+
+.results {
+    background-color: lightseagreen;
+    width:100%;
+    border: 2px red solid;
+    overflow: auto;
+}
+
+
+.poster {
+    border: 2px black solid;
+    background-color:lightblue;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.display {
+    border:2px red solid;
+}
+
+
+@media screen {
+    img {
+        max-height:max-content;
+        max-width:fit-content;
+    }    
+}
+
+.newaccount {
+    border: 3px blue solid;
+}
+
+p4 {
+    text-align: right;
+    color: darkgreen;
+    width:100%;
+}
+
+.adminpage {
+    width:100%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+textarea {
+    margin-top:10px;
+    height:80px;
+    width:100%;
+    max-width:100%;
+}
+
+.developper {
+    width:50%;
+    background-color: lightgray;
+    float:left;
+}
+
+.devs {
+    overflow:auto;
+    background-color:lightyellow;
+}
+
+.developper h2 {
+    text-align:center;
+}
+
+.index { 
+    width:50%;
+    float:left;
+}
+
+.index img {
+    height:50%;
+}
+
+.index:hover p2 {
+    display: block;
+}
+
+div.photobar {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.photobar img:hover {
+    height: 50%;
+}
+
+label 
+{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+.formtitle
+{
+    margin-top: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+legend
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+
+
+form#add_event_form input:not([type=submit]):focus, 
+form#add_event_form textarea:focus {
+  background: #e5e8ed;
+}
+
+
+form#add_event_form input[type=submit], button {
+  margin-top:10px;
+  margin-bottom:10px; 
+  background: #486475;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 7px 40px;
+  text-shadow: 0 2px 2px #000000;
+  text-transform: uppercase;
+}
+form#add_event_form input[type=submit]:hover {
+  background: #748296;
+  cursor: pointer;
+}
+
+
+form#add_event_form table, tr {
+    border-width:5px;
+    border-color:000000;
+    margin-bottom: 10px;
+}
+
+
